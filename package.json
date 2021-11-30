@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "push": "yarn build && scp -r dist/* root@http://192.168.24.129/:/www/dist",
+    "push": "yarn build && scp -r dist/* root@http://192.168.24.129:/home/ancient/www/dist",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
